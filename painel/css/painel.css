@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 *{
     margin: 0;
     padding: 0;
@@ -97,4 +98,105 @@ header{
     width: 85%;
     background-color: rgb(189, 189, 189);
     padding: 20px;
+=======
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+html, body{height: 100%;}
+
+header{
+    background-color: #133e6e;
+    padding: 10px 2%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.info-header{
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    width: 200px;
+}
+
+.info-header img{
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    margin-left: 0 8px;
+}
+
+.info-header svg{
+    margin: 0 10px;
+}
+
+.icons-header{
+    margin: 10px;
+}
+
+.main{
+    display: flex;
+    flex-wrap: wrap;
+    height: 100%;
+}
+
+.sidebar{
+    width: 15%;
+    background-color: #133e6e;
+    height: 100%;
+    color: white;
+}
+
+.sidebar a.sidebar-active{
+    border-left: 5px solid white;
+    background-color: rgb(189, 189, 189);
+    color: #133e6e;
+    font-weight: bold;
+}
+
+.sidebar a.sidebar-active > svg{
+    color: #133e6e;
+}
+
+.sidebar h3{
+    background-color: #133e6e;
+    color: white;
+    text-align: center;    
+    width: 100%;
+    height: 35px;
+    font-size: 20px;
+    margin: 0;
+}
+
+.sidebar a{
+    display: block;
+    text-decoration: none;
+    margin-left: 5px;
+    margin-top: 8px;
+    color: white;
+}
+
+.sidebar a:hover{
+    border-left: 5px solid white;
+    background-color: rgb(189, 189, 189);
+    color: #133e6e;
+    font-weight: bold;
+}
+
+.sidebar a > svg{
+    color: #133e6e;
+}
+
+.sidebar h3 hr{
+    color: white;
+}
+
+.content{
+    width: 85%;
+    background-color: rgb(189, 189, 189);
+    padding: 20px;
+>>>>>>> 3fa77b06550dcf654a3a614810e7b3a443285855
 }
